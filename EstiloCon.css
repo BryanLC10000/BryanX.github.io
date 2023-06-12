@@ -1,0 +1,159 @@
+/* CSS Document */
+body{
+    background: #8A0E0E;
+    color: #F8F8F8;
+}
+.logo{
+width: 100px;
+height: 100px;
+position: absolute;
+top: 5px;	
+right: calc(95% - 70px);	
+}
+
+.logo2{
+width: 100px;
+height: 100px;
+position: absolute;
+top: 4px;	
+left: calc(95% - 80px);	
+
+}
+.seccion{
+text-align: center;  
+margin: 0;
+padding: 0;
+background-color: #000000;
+color: #F5C364;
+height: 80pt;
+font-weight: bold;
+font-size: 50px;
+line-height: 80pt;
+
+}
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Open Sans";
+	
+}
+
+.Contenido{
+max-width: 1800px;
+width: 100%;
+margin: 250px auto;
+display: flex; 
+
+	
+}
+
+.Mostrador{
+width: 100%;
+transition: .5s ease;
+}
+
+
+.Mostrador .Fila{
+display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+
+}
+
+.Mostrador .Fila .item{
+
+max-width: 200px;
+padding: 10px;
+height: 300px;
+text-align: center;
+margin: 0 10px;
+cursor: pointer;
+border-radius: 5px;
+transition: .3s;
+
+}
+
+.Mostrador .Fila .item:hover{
+	background-color: #151111;
+}
+
+.Mostrador .Fila .item img{
+width: 105%;
+margin: 10px 0;	
+
+}
+
+.Mostrador .Fila .item .Descripcion{
+color: #FFFFFF;
+font-weight: bold;
+}
+
+.Mostrador .Fila .item .Precio{
+color: #F5C364;
+font-weight: bold;
+	
+}
+.Seleccion{
+transition: .5s ease;
+opacity: 0;
+width: 0%;
+border: 1px solid #FFFFFF;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+overflow: hidden;
+}
+
+
+.item .Contenedor-foto .Precio {
+
+}
+
+@media screen and (max-width:900px){
+	
+}
+
+
+footer{
+	background: #050505;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo a{
+	
+	font-size: 50px;
+	color: #FFFFFF;
+	border-bottom: 3px solid #8A0E0E;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.titulo-final{
+	text-align: center;
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	color: #FFFFFF;
+}
+

@@ -1,0 +1,136 @@
+/* CSS Document */
+body{
+	background: #8A0E0E;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.Producto{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.Producto img{
+max-width: 100%;
+}
+
+.Producto{
+max-width: 20rem;
+margin: 4rem auto;
+box-shadow: 1px -1px .9rem .25rem black;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.Producto div{
+position: relative;
+	
+}
+
+.Producto div  p{
+position: absolute;
+top: 1rem;
+right: 0px;
+background-color: #000000;
+color: #FFFFFF;
+padding: 1rem;
+border: solid .1rem #FFFFFF;
+	
+}
+
+
+.Titulo-producto{
+font-size: 1rem;
+line-height: 1.4;
+margin-top: .5rem;
+
+}
+
+.precio-preducto{
+font-weight: 600;
+margin-top: .4rem;
+	
+}
+
+.Producto button{
+text-decoration: none;
+background-color: #000000;
+color: #F5C364;
+padding: 1rem;
+text-transform: uppercase;
+cursor: pointer;
+width: 100%;
+text-align: center;
+
+}
+
+.Producto button:hover{
+background-color: #191515;
+color: #F5C364;
+border: solid .1rem #F5C364;
+font-weight: 600;
+}
+
+.Producto a{
+text-decoration: none;
+background-color: #000000;
+color: #F5C364;
+padding: 1rem;
+text-transform: uppercase;
+cursor: pointer;
+width: 90%;
+text-align: center;
+
+}
+
+.Producto a:hover{
+background-color: #191515;
+color: #F5C364;
+border: solid .1rem #F5C364;
+font-weight: 600;
+}
+
+footer{
+	background: #050505;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo a{
+	
+	font-size: 50px;
+	color: #FFFFFF;
+	border-bottom: 3px solid #8A0E0E;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.titulo-final{
+	text-align: center;
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	color: #FFFFFF;
+}
+
+
